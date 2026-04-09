@@ -138,6 +138,34 @@ Carrera de Software
 Asignatura: Manejo y Configuración de Software
 Nombre del Estudiante: Abel Chiriboga
 Fecha: 08/04/2026
+
+Comandos usados
+git flow init
+git flow feature start ingresar-encabezado
+
+git add README.md
+git commit -m "Se agrega nombre del estudiante"
+
+git add README.md
+git commit -m "Se completa encabezado"
+
+git flow feature finish ingresar-encabezado
+
+git checkout main
+git merge develop
+
+git push origin main
+git push origin develop
+
+Descripción del proceso
+
+Se inicializó Git Flow para organizar el desarrollo del proyecto mediante el uso de ramas estructuradas como main y develop.
+
+Luego, se creó una rama de tipo feature llamada ingresar-encabezado, en la cual se realizaron modificaciones al archivo README.md para completar el encabezado con los datos del estudiante.
+
+Durante el desarrollo se realizaron varios commits para registrar los cambios de manera progresiva.
+
+Finalmente, se cerró la rama feature utilizando Git Flow, integrando los cambios en la rama develop, y posteriormente se fusionaron hacia la rama main.
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -167,7 +195,23 @@ Fecha: 08/04/2026
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+¿Qué es un Pull Request?
 
+Un Pull Request es una solicitud para fusionar cambios de una rama a otra dentro de un repositorio en GitHub. Permite revisar, discutir y validar los cambios antes de integrarlos a la rama principal.
+
+¿Por qué es importante revisarlo?
+
+Es importante revisar un Pull Request porque permite detectar errores, mejorar la calidad del código y asegurar que los cambios no afecten el funcionamiento del proyecto antes de ser integrados a la rama principal.
+
+¿Qué se revisa en un Pull Request?
+
+Durante la revisión se suelen validar:
+
+Correcto funcionamiento del código
+Cumplimiento de requisitos
+Buenas prácticas de programación
+Posibles errores o conflictos
+Claridad y organización del código
 ---
 
 ## Pregunta 5 (2 puntos)
