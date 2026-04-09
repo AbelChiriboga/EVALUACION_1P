@@ -132,7 +132,12 @@ Esto confirma que el archivo .gitignore funciona correctamente.
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-
+Universidad Tecnica de Ambato
+Facultad de Ingieneria en Sistemas Electronica e Industrial
+Carrera de Software
+Asignatura: Manejo y Configuración de Software
+Nombre del Estudiante: Abel Chiriboga
+Fecha: 08/04/2026
 ---
 
 ## Pregunta 4 (2 puntos)
