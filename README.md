@@ -82,6 +82,26 @@ git remote -v
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore se utiliza para indicar a Git qué archivos o carpetas no deben ser rastreados.
+
+En este caso se configuró para ignorar:
+
+Archivos con extensión .log
+La carpeta temp/
+Archivos .md y .txt dentro de la carpeta doc/
+Evidencia
+
+Al ejecutar el comando git status, se observa que:
+
+Los archivos dentro de la carpeta doc/ no son rastreados
+La carpeta temp/ no aparece
+Los archivos .log no son detectados
+
+Sin embargo:
+
+Los archivos .md y .txt fuera de doc/ sí son rastreados correctamente
+
+Esto confirma que el archivo .gitignore funciona correctamente.
 
 ---
 
